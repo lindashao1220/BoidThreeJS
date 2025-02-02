@@ -6,6 +6,7 @@ import { Vector3, MeshBasicMaterial } from "three";
 import { SkeletonUtils } from "three-stdlib";
 import { themeAtom, THEMES } from "./UI";
 
+
 export const Fishes = () => {
   const [theme] = useAtom(themeAtom);
   return (
